@@ -1,1 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_order"
+            android:title="Order Food" />
+        <item
+            android:id="@+id/nav_learnToCount"
+            android:title="Count In Thai" />
+        <item
+            android:id="@+id/nav_curseInThai"
+            android:title="Curse In Thai" />
+
+    </group>
+
+
+</menu>
