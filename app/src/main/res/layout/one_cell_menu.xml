@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:background="@drawable/grilledchicken"
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="2dp"
+            android:text="English"
+            android:id="@+id/english"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:padding="2dp"
+            android:id="@+id/thai"
+            android:text="Thai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="2dp"
+            android:text="Pronunciation"
+            android:id="@+id/pronunciation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:padding="5dp"
+            android:background="@android:drawable/ic_media_play"
+            android:id="@+id/audio"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+</LinearLayout>
